@@ -1,0 +1,36 @@
+package de.tuhh.diss.car;
+
+public class Truck {
+	
+	private double dist;
+	private Engine3 engine;
+	
+	public Truck() {
+		this(new Engine3(0, 100));
+	}
+	
+	public Truck(int power) {
+		this(new Engine3(0, power));
+	}
+
+	//Truck(Engine3) needs to be defined#
+		//This will be able to be manipulated later when calling the Truck class in 'Driver.java'
+	public Truck(Engine3 engine) {
+		dist = 0;
+		this.engine = engine;
+	}
+	
+	public int Truck_Power() {
+		Engine3 a;
+		return a.get_Engine3_Power();
+		return gear*power;
+	}
+	
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

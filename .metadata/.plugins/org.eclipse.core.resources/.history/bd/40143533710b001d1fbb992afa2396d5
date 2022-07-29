@@ -1,0 +1,34 @@
+/**
+ * 
+ */
+package de.tuhh.diss.car;
+
+/**
+ * @author Makav
+ *
+ */
+public class Engine3 {
+	private int gear;
+	private int power;
+	
+	//name of the innerclass must match public class (abstract class)
+	public Engine3(int gear, int power) {
+		//To avoid using p and g, to save memory then the below is made.
+		//gear = gear
+		//power = power
+		this.gear = gear;
+		this.power = power;
+	}
+	
+	//A 2nd default paramaters, incase only 1 argument is given
+	public Engine3(int power) {
+		gear = 0;
+		power = power;
+	}
+	
+	//Method for processing the input/received variables of 'public Engine2'. Because 'public' is private and cannot be accessed straight from outside, but only within 'Engine2 public class'
+	public int get_Engine3_Power() {
+		return gear * power;
+	}
+
+}

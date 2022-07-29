@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.text.NumberFormat"/>
+    <fullyQualifiedTypeName name="java.text.DecimalFormat"/>
+    <fullyQualifiedTypeName name="java.util.Locale"/>
+    <fullyQualifiedTypeName name="MazebotSim.MazebotSimulation"/>
+    <fullyQualifiedTypeName name="MazebotSim.Visualization.GuiMazeVisualization"/>
+    <fullyQualifiedTypeName name="lejos.hardware.lcd.LCD"/>
+    <fullyQualifiedTypeName name="lejos.utility.Delay"/>
+    <fullyQualifiedTypeName name="lejos.hardware.motor.EV3LargeRegulatedMotor"/>
+    <fullyQualifiedTypeName name="lejos.hardware.port.MotorPort"/>
+    <fullyQualifiedTypeName name="java.io.BufferedReader"/>
+    <fullyQualifiedTypeName name="java.io.InputStreamReader"/>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
+    <fullyQualifiedTypeName name="de.tuhh.diss.io.SimpleIO"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,26 @@
+package de.tuhh.diss.car;
+
+public class Bus_Driver {
+
+	public static void main(String[] args) {
+		Engine4 e = new Engine4(6, 0, 150);
+		Bus b1 = new Bus(e);
+		
+		//The driver decides to check the speed
+		b1.checkGear();
+		//Starts driving, by changing gear
+		b1.shiftUp();
+		//Starts moving the bus
+		b1.drive(120); //Drives for 120 seconds
+		//Increase the gear, or shift up
+		b1.shiftUp();
+		//continue driving the bus
+		b1.drive(80); //Drives for 80 seconds
+		//While driving, the driver decides to check the speed
+		b1.getSpeed();
+		//continue driving the bus
+		b1.drive(50); //Drives for 50 seconds
+		
+	}
+
+}

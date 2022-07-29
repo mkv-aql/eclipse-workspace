@@ -1,0 +1,33 @@
+/**
+ * 
+ */
+package de.tuhh.diss.clock;
+
+import java.util.Locale;
+
+/**
+ * @author Makav
+ *
+ */
+public class NumberDisplay {
+	private int range;
+	private int value;
+	
+	public NumberDisplay(int range) {
+		this.range = range;
+	}
+	
+	public String getDisplayString() {
+		String stringValue = String.format(Locale.ROOT,"%.02f", value);
+		return value; 
+	}
+	
+	public int setValue(int newValue) {
+		this.value = newValue;
+		return value;
+	}
+	
+	public int getValue() {
+		
+	}
+}

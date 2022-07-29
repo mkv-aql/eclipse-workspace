@@ -1,0 +1,46 @@
+/**
+ * 
+ */
+package de.tuhh.diss.car;
+
+import de.tuhh.diss.io.SimpleIO;
+
+/**
+ * @author Makav
+ *
+ */
+public class Testing_Engine {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		
+		//Calling the Engine class from 'Engine.java'
+		Engine e;
+		
+		e = new Engine();
+		
+		e.setPower(100);
+		e.shift(2);
+		SimpleIO.println(e.getSpeed());
+		
+		
+		//Calling Engine2 class
+		Engine2 f;
+			//Setting up the gear and power
+		f = new Engine2(2, 7);
+			//Calling the method for processing the Engine2 received variables
+		SimpleIO.println(f.get_Engine2_Power());
+		
+			//Setting up only the power, and have gear = 0 as a default
+		f = new Engine2(6);
+			//Calling the method for processing the Engine2 received variables
+		SimpleIO.println(f.get_Engine2_Power());
+		
+		
+		
+
+	}
+
+}

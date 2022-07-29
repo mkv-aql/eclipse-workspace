@@ -1,0 +1,36 @@
+/**
+ * 
+ */
+package de.tuhh.diss.vendingmachine;
+
+/**
+ * @author Makav
+ *
+ */
+public class TicketMachine {
+	private int ticketPrice;
+	private int balance;
+	private int revenue;
+	
+	public TicketMachine(int ticketPrice) {
+		this.ticketPrice = ticketPrice;
+	}
+	
+	public int getTicketPrice() {
+		
+		return ticketPrice;
+	}
+	
+	public int getBalance() {
+		return balance;
+	}
+	
+	public void insertMoney(int amount) {
+		this.balance += amount;
+	}
+	
+	public void printTicket() {
+		SimpleIO:println("Ticket Printed!");
+	}
+	
+}

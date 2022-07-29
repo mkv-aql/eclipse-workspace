@@ -1,0 +1,28 @@
+package de.tuhh.diss.car;
+
+public class Bus {
+	private Engine4 engine;
+	private double dist;
+	
+	//Defining Bus(Engine4) here first
+	
+	
+	public boolean shiftUp() {
+		return engine.shift(1);
+	}
+	
+	public boolean shiftDown() {
+		return engine.shift(-1);
+	}
+	
+	public double drive(double time) {
+		double curDist = 0;
+		if (time > 0) {
+			curDist = time * engine.getSpeed();
+			this.dist += curDist;
+		}
+		return curDist;
+	}
+	
+	
+}

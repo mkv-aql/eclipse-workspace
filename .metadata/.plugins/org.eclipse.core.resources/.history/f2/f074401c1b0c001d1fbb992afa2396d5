@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package de.tuhh.diss.vendingmachine;
+
+/**
+ * @author Makav
+ *
+ */
+public class TicketMachine {
+	
+}

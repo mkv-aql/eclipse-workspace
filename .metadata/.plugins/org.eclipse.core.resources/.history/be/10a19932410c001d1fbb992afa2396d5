@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package de.tuhh.diss.shapes;
+
+/**
+ * @author Makav
+ *
+ */
+public class CoordinateXY {
+
+}

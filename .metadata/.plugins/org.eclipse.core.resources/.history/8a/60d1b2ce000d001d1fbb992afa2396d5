@@ -1,0 +1,48 @@
+/**
+ * 
+ */
+package de.tuhh.diss.clock;
+
+import java.util.Locale;
+
+/**
+ * @author Makav
+ *
+ */
+public class NumberDisplay {
+	private int range;
+	private int value;
+	
+	public NumberDisplay(int range) {
+		this.range = range;
+	}
+	
+	//The received values will be converted to string
+	/*
+	public String getDisplayString() {
+		String stringValue = String.format(Locale.ROOT,"%.02f", value);
+		return stringValue; 
+	}
+	*/
+	
+	//Simpler way of displaying strings
+	public String getDisplayString() {
+		if (value < 10) {
+			return ("0" +value);
+		} else
+			return ("" +value);
+	}
+	
+	public int setValue(int newValue) {
+		this.value = newValue;
+		return value;
+	}
+	
+	public int getValue() {
+		return value;
+	}
+	
+	public void increment() {
+		
+	}
+}

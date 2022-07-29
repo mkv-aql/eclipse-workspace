@@ -1,0 +1,34 @@
+/**
+ * 
+ */
+package de.tuhh.diss.clock;
+
+/**
+ * @author Makav
+ *
+ */
+public class Clock {
+	private NumberDisplay hours; //If a class is used for declaration, then it must be defined below
+	private NumberDisplay minutes;
+	private String displayString;
+	
+	//'Clock(NumberDisplay)' needs to be defined
+	public Clock(NumberDisplay hours, NumberDisplay minutes) {
+		this(hours.getValue(), minutes.getValue());
+	}
+	
+	public Clock(int h, int m) {
+		this.hours = new NumberDisplay(h);
+		this.minutes = new NumberDisplay(m);
+		
+	}
+	
+	public void timeTick() {
+		
+	}
+	
+	public void setTime(int h, int m) {
+		hours = h;
+		minutes = m;
+	}
+}

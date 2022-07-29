@@ -1,0 +1,20 @@
+/**
+ * 
+ */
+package de.tuhh.diss.clock;
+
+/**
+ * @author Makav
+ *
+ */
+public class Clock_Test {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

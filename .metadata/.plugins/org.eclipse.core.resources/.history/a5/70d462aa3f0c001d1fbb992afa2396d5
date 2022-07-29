@@ -1,0 +1,3 @@
+1.Implement a rectangle
+2. Rectangle is defined by 2 points (x,y) coordinates, or 4 values, (x1,y1) to (x2,y2)
+3. Method for obtaining the intersection of 2 rectangles

@@ -1,0 +1,19 @@
+/**
+ * 
+ */
+package de.tuhh.diss.clock;
+
+/**
+ * @author Makav
+ *
+ */
+public class NumberDisplay {
+	private int range;
+	private int value;
+	
+	public NumberDisplay(int range) {
+		this.range = range;
+	}
+	
+	
+}
