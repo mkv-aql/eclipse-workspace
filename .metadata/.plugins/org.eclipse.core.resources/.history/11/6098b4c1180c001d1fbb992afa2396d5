@@ -1,5 +1,0 @@
-Ticket vending machine with fixed price:
-1. Insert money
-	-random amount in cents, multiple times possible
-2. Print ticket
-3. Refund balance
