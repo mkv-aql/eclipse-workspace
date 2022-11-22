@@ -30,7 +30,7 @@ public class Data_Types_1 {
 		boolean myBool = true;       // Boolean
 		String myText = "Hello";     // String
 		long myLongNum = 21421432354325234L; //Long
-		float f1 = 35e3f; 			//Scientific number
+		float f1 = 35e3f; 			//Scientific number (e vs E is the same)
 		double d1 = 12E4d; 			//Scientific number
 		
 		System.out.println(myNum);
