@@ -9,9 +9,11 @@ public class MakeShapes {
 		Rectangle r1 = new Rectangle(5, 10, 25, 30);
 		Rectangle r2 = new Rectangle(7, 12, 27, 32);
 		
+		System.out.println("Rectangle positions...............");
 		r1.print();
 		r2.print();
 		
+		System.out.println("Intersecting positions............");
 		r1.getIntersection(r2).print();
 		r2.getIntersection(r1).print();
 		
@@ -20,9 +22,9 @@ public class MakeShapes {
 		SimpleIO.println("");
 		
 		//Position of the rectangle is just touching sides
-			//Bottom left pos
+			//Bottom left position of plane coordinates
 		r1 = new Rectangle(0, 0, -10, -10);
-			//Top left pos
+			//Top left position of plane coordinates
 		r2 = new Rectangle(0, 0, -10, 10);
 		
 		r1.print();

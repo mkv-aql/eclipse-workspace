@@ -3,7 +3,7 @@ package de.tuhh.diss.car;
 import de.tuhh.diss.io.SimpleIO;
 
 public class Bus {
-	private Engine4 engine;
+	private Engine4 engine; // Import Engine4 as engine
 	private double dist;
 	
 	//Bus(Engine4) needs to be defined

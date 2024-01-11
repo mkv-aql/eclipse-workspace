@@ -20,7 +20,7 @@ public class Engine4 {
 		if (newGear > numGears || newGear < 0) {
 			return false;
 		}
-		gear = newGear;
+		this.gear = newGear;
 		return true;
 	}
 	

@@ -6,10 +6,10 @@ public class QuizVars_1 {
     final int Y = 13; //Creates the variable Y constant, to protect from changes
     int x = 10;
     double d;
-    d = x / Y;
-    x /= Y;
+    d = x / Y; // int / int = int
+    x /= Y; //x = x / Y
     boolean b = x > 0; //x = 0.769, therefore it will be false
-    x = 2 * 3 + 2 * 9 / 2; //x will be changed
+    x = 2 * 3 + 2 * 9 / 2; //x will be changed, Follows BIDMAS (9/2 first then *, then +)
     //Y = 1; //The program would not allow the Y change line to be written. 
     
     SimpleIO.println("b = " + b);
